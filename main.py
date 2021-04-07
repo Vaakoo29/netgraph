@@ -1,3 +1,4 @@
+# проверка моей ветки! не мастер
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
@@ -12,7 +13,7 @@ G = nx.Graph() # создание графа
 
 for project in data['projects']:
     G.add_node(project['id'], label=project['name'], weight=project['amount'], region=project['area'])
-    print(G.nodes()) #почему-то сбивается, но результат выходит нормальный! 
+    print(G.nodes()) #почему-то сбивается, но результат выходит нормальным! 
     if len(project['links']) > 0:
         for link in project['links']:
             G.add_edge(project['id'], link)
