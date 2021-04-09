@@ -3,7 +3,7 @@ const height = window.innerHeight
 const svg = d3.select('svg')
   .attr('width', width)
   .attr('height', height)
-  .style("background", "#1E90FF")
+  .style("background", "#1E90FF");
 
  var graphData = {
    nodes: [
@@ -119,7 +119,7 @@ const svg = d3.select('svg')
    .forceSimulation(graphData.nodes)
    .force("charge", d3.forceManyBody().strength(-30))
    .force("center", d3.forceCenter(width / 2, height / 2))
-   .force("link", d3.forceLink(graphData.links).id(d => d.id)) 
+   .force("link", d3.forceLink(graphData.links).id(d => d.id))
    .on("tick", ticked);
 
  var links = svg
@@ -187,6 +187,15 @@ const svg = d3.select('svg')
   svg.append("text").attr("x", 220).attr("y", 160).text("Республика Хакасия").style("font-size", "15px").attr("alignment-baseline","middle").style("color", "white");
   svg.append("text").attr("x", 220).attr("y", 190).text("Республика Тыва").style("font-size", "15px").attr("alignment-baseline","middle").style("color", "white");
   svg.append("text").attr("x", 220).attr("y", 220).text("Иркутская область").style("font-size", "15px").attr("alignment-baseline","middle").style("color", "white");
+
+  svg.append("text").attr("x", 200).attr("y", 275).text("<= 1 млрд руб.").style("font-size", "10px").attr("alignment-baseline","middle").style("color", "white");
+  svg.append("text").attr("x", 310).attr("y", 275).text("100-350 млрд руб.").style("font-size", "10px").attr("alignment-baseline","middle").style("color", "white");
+
+  svg.append("circle").attr("cx", 250).attr("cy",300).attr("r", 3).style("fill", "white");
+  svg.append("circle").attr("cx", 270).attr("cy",300).attr("r", 6).style("fill", "white");
+  svg.append("circle").attr("cx", 300).attr("cy",300).attr("r", 10).style("fill", "white");
+  svg.append("circle").attr("cx", 330).attr("cy",300).attr("r", 12).style("fill", "white");
+
 
  function ticked() {
 
