@@ -19,7 +19,6 @@ def main():
 
     print(list(G.nodes(data=True)))
 
-    # Алгоритм, который высчитывает координаты вершин, чтобы выглядело норм
     pos = nx.kamada_kawai_layout(G)
 
     nx.draw_networkx_nodes(G, pos, node_color='yellow', node_size=10)
