@@ -182,7 +182,13 @@ const svg = d3.select('svg')
        {source:69, target:24},
        {source:70, target:33},
        {source:71, target:33},
-       {source:74, target:21}
+       {source:74, target:21},
+       {source:75, target:41},
+       {source:75, target:40},
+       {source:75, target:20},
+       {source:76, target:25},
+       {source:77, target:25},
+       {source:47, target:9}
    ]
 };
 
@@ -216,7 +222,7 @@ const svg = d3.select('svg')
 
  var simulation = d3
    .forceSimulation(graphData.nodes)
-   .force("charge", d3.forceManyBody().strength(-40))
+   .force("charge", d3.forceManyBody().strength(-50))
    .force("center", d3.forceCenter(width / 2, height / 2))
    .force("link", d3.forceLink(graphData.links).id(d => d.id))
    .on("tick", ticked);
