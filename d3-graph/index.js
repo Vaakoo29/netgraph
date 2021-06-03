@@ -367,7 +367,7 @@ const svg = d3.select('svg')
 
  function openNavBar(name, amount, area) {
   console.log(document.getElementById("mySidebar").text);
-  if (document.getElementById("mySidebar").text == undefined) {
+  if (document.getElementById("mySidebar").text == undefined || document.getElementById("mySidebar").text == "empty") {
     document.getElementById("mySidebar").text=name;
     console.log(document.getElementById("mySidebar").text);
     document.getElementById("mySidebar").style.width = "250px";
