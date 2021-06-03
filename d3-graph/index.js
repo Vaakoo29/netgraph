@@ -48,22 +48,22 @@ const svg = d3.select('svg')
        {name: "Развитие производства строительной извести", id: 37, amount: 285000000, area: "Красноярский край"},
        {name: "Модернизация производства аморфного графита", id: 38, amount: 1800000000, area: "Красноярский край"},
        {name: "Троицкий солеваренный завод", id: 39, amount: 1795000000, area: "Красноярский край"},
-       {name: "Медицинский центр 'Первый меридиан'", id: 40, amount: 738000000, area: "Красноярский край"},
+       {name: "Медицинский центр «Первый меридиан»", id: 40, amount: 738000000, area: "Красноярский край"},
        {name: "Сеть футбольных манежей", id: 41, amount: 228000000, area: "Красноярский край"},
        {name: "Производство сублимированных ягод и функциональных напитков", id: 42, amount: 50000000, area: "Красноярский край"},
-       {name: "Глэмпинг 'Кузнецово'", id: 43, amount: 53000000, area: "Красноярский край"},
+       {name: "Глэмпинг «Кузнецово»", id: 43, amount: 53000000, area: "Красноярский край"},
        {name: "Производство терефталевой кислоты", id: 44, amount: 3000000000, area: "Красноярский край"},
        {name: "Плодово-ягодный сад", id: 45, amount: 1000000000, area: "Республика Хакасия"},
        {name: "Сеть доставок готового здорового питания Tasty Day", id: 47, amount: 250000000, area: "Республика Хакасия"},
-       {name: "ТРК 'Горный' Деревянный Глэмпинг", id: 48, amount: 29000000, area: "Республика Хакасия"},
-       {name: "ТРК 'Горный' Инвестплощадка 'Остров любви'", id: 49, amount: 36000000, area: "Республика Хакасия"},
-       {name: "ТРК 'Горный' Инвестплощадка 'Этнодеревня'", id: 50, amount: 45900000, area: "Республика Хакасия"},
-       {name: "ТРК 'Горный' Инвестплощадка 'Эко-отель'", id: 51, amount: 81500000, area: "Республика Хакасия"},
-       {name: "ТРК 'Горный' Инвестплощадка 'Кедровый рай'", id: 52, amount: 145600000, area: "Республика Хакасия"},
+       {name: "ТРК «Горный» Деревянный Глэмпинг", id: 48, amount: 29000000, area: "Республика Хакасия"},
+       {name: "ТРК «Горный» Инвестплощадка 'Остров любви'", id: 49, amount: 36000000, area: "Республика Хакасия"},
+       {name: "ТРК «Горный» Инвестплощадка 'Этнодеревня'", id: 50, amount: 45900000, area: "Республика Хакасия"},
+       {name: "ТРК «Горный» Инвестплощадка 'Эко-отель'", id: 51, amount: 81500000, area: "Республика Хакасия"},
+       {name: "ТРК «Горный» Инвестплощадка 'Кедровый рай'", id: 52, amount: 145600000, area: "Республика Хакасия"},
        {name: "Многопрофильная стоматологическая поликлиника в г.Кызыле", id: 53, amount: 276000000, area: "Республика Тыва"},
-       {name: "Горнолыжный туркомплекс 'Тайга'", id: 54, amount: 850000000, area: "Республика Тыва"},
-       {name: "Санаторно-курортный и лечебно-оздоровительный туркомплекс 'Чедер-Kinezi'", id: 55, amount: 1645000000, area: "Республика Тыва"},
-       {name: "Строительство сети придорожных объектов на автодороге Р257 'Енисей'", id: 56, amount: 118000000, area: "Республика Тыва"},
+       {name: "Горнолыжный туркомплекс «Тайга»", id: 54, amount: 850000000, area: "Республика Тыва"},
+       {name: "Санаторно-курортный и лечебно-оздоровительный туркомплекс «Чедер-Kinezi»", id: 55, amount: 1645000000, area: "Республика Тыва"},
+       {name: "Строительство сети придорожных объектов на автодороге Р257 «Енисей»", id: 56, amount: 118000000, area: "Республика Тыва"},
        {name: "Производство по шоковой заморозке плодов и ягод", id: 57, amount: 85000000, area: "Республика Тыва"},
        {name: "Глубая переработка льна", id: 58, amount: 175000000, area: "Республика Хакасия"},
        {name: "Производство модицифицированного крахмала из картофеля", id: 59, amount: 177000000, area: "Республика Хакасия"},
@@ -79,10 +79,10 @@ const svg = d3.select('svg')
        {name: "Освоение Ванкорской группы месторождений", id: 69, amount: 900000000000, area: "Красноярский край"},
        {name: "Полномасштабная разработка Верхнечонского месторождения", id: 70, amount: 152000000000, area: "Иркутская область"},
        {name: "Освоение нефтегазовых месторождений Юрубченко-Тохомской группы на юге Эвенкии", id: 71, amount: 300000000000, area: "Красноярский край"},
-       {name: "Реконструкция Талнахской обогатительной фабрики 'Южный кластер'", id: 72, amount: 100000000000, area: "Красноярский край"},
+       {name: "Реконструкция Талнахской обогатительной фабрики «Южный кластер»", id: 72, amount: 100000000000, area: "Красноярский край"},
        {name: "Серный проект", id:73, amount: 148000000000, area: "Красноярский край"},
        {name: "Строительство Богучанского ЛПК и сопутствующих объектов ж/д инфаструктуры", id:74, amount: 131000000000, area: "Красноярский край"},
-       {name: "Создание и развитие особой экономической зоны 'Красноярская технологическая долина'", id:75, amount: 23100000000, area: "Красноярский край"},
+       {name: "Создание и развитие особой экономической зоны «Красноярская технологическая долина»", id:75, amount: 23100000000, area: "Красноярский край"},
        {name: "Строительство завода по производству полимеров в Иркутской области", id:76, amount: 168000000000, area: "Иркутская область"},
        {name: "Разработка месторождений Сухой Лог и создание крупного производства по добыче 80-90 т золота и 20-25 т серебра в год", id:77, amount: 407000000000, area: "Иркутская область"}
    ],
@@ -258,8 +258,29 @@ const svg = d3.select('svg')
    .attr("r", function(d) {return sizeNode(d.amount);})
   //  .attr("r", 3)
    .attr("fill", function(d) {return areaColour(d.area);})
-//    .text(function(d) { return d.name; })
+   .attr("id", function(d) {return d.name;})
+   .each(function() {
+    var sel = d3.select(this);
+    var state = false;
+    sel.on('click', function() {
+      state = !state;
+      if (state) {
+        // console.log(sel => sel.name);
+        // document.getElementById("mySidebar").text=(sel => sel.name);
+        sel.style('stroke', 'white');
+        sel.style('stroke-width', '3');
+        // console.log()
+        // sel.style('fill', 'white');
+      } else {
+          sel.style('stroke', 'white');
+          sel.style('stroke-width', '0');
+          sel.style('fill', function(d) { return areaColour(d.area); });
+      }
+    });
+    })
+   .text(function(d) { return d.name; })
    .text(d => d.name)
+   .attr("onclick",  function(d) {return "openNavBar('"+ d.name +"','"+ d.amount+"','"+ d.area+"')";})
    .on("mouseover", function(d){tooltip.text(d.name); return tooltip.style("visibility", "visible");})
    .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
    .on("mouseout", function(){return tooltip.style("visibility", "hidden");});;
@@ -343,3 +364,34 @@ const svg = d3.select('svg')
    d.fx = null;
    d.fy = null;
  }
+
+ function openNavBar(name, amount, area) {
+  console.log(document.getElementById("mySidebar").text);
+  if (document.getElementById("mySidebar").text == undefined) {
+    document.getElementById("mySidebar").text=name;
+    console.log(document.getElementById("mySidebar").text);
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("name").text = name;
+    document.getElementById("area").text = area;
+    document.getElementById("area").style.color = areaColour(area);
+    document.getElementById("amount").text = "Инвестиции: " + amount;
+  } else {
+    document.getElementById(document.getElementById("mySidebar").text).style.strokeWidth=0;
+    document.getElementById("mySidebar").text=name;
+    console.log(document.getElementById("mySidebar").text);
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("name").text = name;
+    document.getElementById("area").text = area;
+    document.getElementById("area").style.color = areaColour(area);
+    document.getElementById("amount").text = "Инвестиции: " + amount;
+  }
+  
+ }
+
+ function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  var val = document.getElementById("mySidebar").text;
+  // console.log(document.getElementById("mySidebar").text);
+  document.getElementById(val).style.strokeWidth=0;
+  document.getElementById("mySidebar").text="empty";
+}
